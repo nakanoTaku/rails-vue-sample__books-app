@@ -42,6 +42,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'faker'
   gem 'readline'
+  gem 'haml-rails'
+  gem 'erb2haml'
 end
 
 group :test do
@@ -54,3 +56,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'materialize-sass', '~> 1.0.0'
+gem 'material_icons'
