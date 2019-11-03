@@ -1,1 +1,1 @@
-json.extract! @book, %w(title author publisher genre)
+json.extract! @book, :title, :author, :publisher, :genre
